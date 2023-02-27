@@ -11,8 +11,10 @@
         sortOrder="20"
         translate="label">
         <parents default_policy="deny">
+            <parent name="root-container" policy="allow"/>
             <parent name="row" policy="allow"/>
             <parent name="column" policy="allow"/>
+            <parent name="tab-item" policy="allow"/>
         </parents>
         <children default_policy="deny">
             <child name="faq-item" policy="allow"/>

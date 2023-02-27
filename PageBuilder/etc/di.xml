@@ -5,8 +5,7 @@
             <argument name="config" xsi:type="array">
                 <item name="faq" xsi:type="array">
                     <item name="default" xsi:type="array">
-                        <item name="component" xsi:type="string">BASP_PageBuilder/js/content-type/faq/appearance/default
-                            /widget</item>
+                        <item name="component" xsi:type="string">BASP_PageBuilder/js/content-type/faq/appearance/default/widget</item>
                     </item>
                 </item>
             </argument>
